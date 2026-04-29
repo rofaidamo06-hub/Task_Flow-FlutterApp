@@ -1,17 +1,33 @@
-# task_flow
+Project Name: TaskFlow (Flutter & Firebase Task Manager)
+Project Overview
+TaskFlow is a robust cross-platform task management application developed using Flutter. The app provides a seamless user experience for organizing daily activities, integrated with Firebase for real-time data synchronization and secure user authentication.
 
-A new Flutter project.
+Key Technical Features
+User Authentication: Implemented secure Login and Sign-out flows using Firebase Auth, ensuring each user has a private and personalized task list.
 
-## Getting Started
+Real-time CRUD Operations: Leveraged Cloud Firestore to perform Create, Read, Update, and Delete operations. Tasks are updated in real-time across devices using StreamBuilder.
 
-This project is a starting point for a Flutter application.
+Task Management Workflow:
 
-A few resources to get you started if this is your first Flutter project:
+Quick-add tasks via an inline text field.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Detailed task creation and editing through a dedicated AddEditTaskScreen.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dynamic status updates (Marking tasks as complete/incomplete).
+
+Data Architecture: Designed a hierarchical Firestore structure (users -> userId -> tasks) to ensure data isolation and security.
+
+Advanced UI/UX:
+
+Interactive ListView with custom animations for completed tasks (line-through decoration).
+
+Navigation and state management using Flutter's native Navigator and asynchronous programming.
+
+Splash screen for a professional branding experience.
+
+Technical Stack
+Frontend: Flutter (Dart).
+
+Backend: Firebase Auth, Cloud Firestore.
+
+State Management: StatefulWidgets with Real-time Streams.
