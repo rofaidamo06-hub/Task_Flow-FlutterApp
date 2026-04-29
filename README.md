@@ -1,8 +1,11 @@
 Project Name: TaskFlow (Flutter & Firebase Task Manager)
+
 Project Overview
+
 TaskFlow is a robust cross-platform task management application developed using Flutter. The app provides a seamless user experience for organizing daily activities, integrated with Firebase for real-time data synchronization and secure user authentication.
 
 Key Technical Features
+
 User Authentication: Implemented secure Login and Sign-out flows using Firebase Auth, ensuring each user has a private and personalized task list.
 
 Real-time CRUD Operations: Leveraged Cloud Firestore to perform Create, Read, Update, and Delete operations. Tasks are updated in real-time across devices using StreamBuilder.
